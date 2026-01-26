@@ -3,446 +3,407 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms and Conditions - SweepSafe</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 40px 30px;
-            text-align: center;
-        }
-
-        .header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-
-        .header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        .content {
-            padding: 40px 30px;
-        }
-
-        .section {
-            margin-bottom: 35px;
-        }
-
-        .section h2 {
-            color: #667eea;
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #f0f0f0;
-        }
-
-        .section h3 {
-            color: #555;
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-            margin-top: 20px;
-        }
-
-        .section p {
-            margin-bottom: 15px;
-            color: #555;
-            font-size: 1rem;
-        }
-
-        .section ul, .section ol {
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        .section li {
-            margin-bottom: 8px;
-            color: #555;
-        }
-
-        .highlight {
-            background: linear-gradient(135deg, #667eea20, #764ba220);
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-            margin: 20px 0;
-        }
-
-        .highlight h3 {
-            color: #667eea;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .warning {
-            background: linear-gradient(135deg, #ff6b6b20, #ff8e8e20);
-            padding: 20px;
-            border-radius: 10px;
-            border-left: 4px solid #ff6b6b;
-            margin: 20px 0;
-        }
-
-        .warning h3 {
-            color: #ff6b6b;
-            font-weight: 600;
-            margin-bottom: 10px;
-        }
-
-        .contact-info {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 30px;
-        }
-
-        .contact-info h3 {
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        .contact-info p {
-            margin-bottom: 8px;
-        }
-
-        .last-updated {
-            background: #e9ecef;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            margin-top: 30px;
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-        .toc {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 30px;
-        }
-
-        .toc h3 {
-            color: #333;
-            margin-bottom: 15px;
-        }
-
-        .toc ol {
-            margin-left: 20px;
-        }
-
-        .toc li {
-            margin-bottom: 5px;
-        }
-
-        .toc a {
-            color: #667eea;
-            text-decoration: none;
-        }
-
-        .toc a:hover {
-            text-decoration: underline;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                margin: 10px;
-                border-radius: 15px;
-            }
-            
-            .header {
-                padding: 30px 20px;
-            }
-            
-            .header h1 {
-                font-size: 2rem;
-            }
-            
-            .content {
-                padding: 30px 20px;
-            }
-        }
-    </style>
+    <title>Sweepedia - Your Sweepstakes Safety Guardian</title>
+    <meta name="description" content="Stay safe while enjoying sweepstakes and contests! Sweepedia is the ultimate educational app designed to protect you from scams and teach you how to identify legitimate sweepstakes opportunities.">
+    <meta name="keywords" content="sweepstakes,scam protection,safety,contest,fraud prevention,education,security,privacy,lottery">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Sweepedia - Your Sweepstakes Safety Guardian">
+    <meta property="og:description" content="Protect yourself from sweepstakes scams with our comprehensive educational app">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sweepsafe.app">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="assets/favicon.png">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Terms and Conditions</h1>
-            <p>SweepSafe - Educational Sweepstakes Safety App</p>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="Sweepedia Logo" class="logo-img">
+                    <span class="logo-text">Sweepedia</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#toplist" class="nav-link">Top Sweepstakes</a>
+                    <a href="#screenshots" class="nav-link">Screenshots</a>
+                    <a href="#download" class="nav-link download-btn">Download</a>
+                </div>
+                <div class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Your Sweepstakes Safety Guardian</h1>
+                    <p class="hero-subtitle">Stay safe while enjoying sweepstakes and contests! Sweepedia is the ultimate educational app designed to protect you from scams and teach you how to identify legitimate sweepstakes opportunities.</p>
+                    <div class="hero-buttons">
+                        <a href="https://apps.apple.com/vn/app/sweepsafe-sweepstakes-deals/id6747408297" class="app-store-btn" target="_blank">
+                            Download
+                        </a>
+                        <a href="#features" class="learn-more-btn">Learn More</a>
+                    </div>
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <span class="feature-icon">🛡️</span>
+                            <span>Scam Protection</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">📚</span>
+                            <span>Educational Content</span>
+                        </div>
+                        <div class="feature-item">
+                            <span class="feature-icon">🏆</span>
+                            <span>Verified Sweepstakes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-phone">
+                    <div class="phone-mockup">
+                        <img src="screenshots/iPhone/home.jpeg" alt="Sweepedia App Screenshot" class="phone-screen">
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-        <div class="content">
-            <div class="toc">
-                <h3>📋 Table of Contents</h3>
-                <ol>
-                    <li><a href="#acceptance">Acceptance of Terms</a></li>
-                    <li><a href="#description">App Description and Purpose</a></li>
-                    <li><a href="#eligibility">Eligibility and Age Requirements</a></li>
-                    <li><a href="#use">Permitted Use and Restrictions</a></li>
-                    <li><a href="#content">Content and Information</a></li>
-                    <li><a href="#privacy">Privacy and Data</a></li>
-                    <li><a href="#disclaimers">Disclaimers and Limitations</a></li>
-                    <li><a href="#liability">Limitation of Liability</a></li>
-                    <li><a href="#indemnification">Indemnification</a></li>
-                    <li><a href="#updates">App Updates and Changes</a></li>
-                    <li><a href="#termination">Termination</a></li>
-                    <li><a href="#governing">Governing Law</a></li>
-                    <li><a href="#contact">Contact Information</a></li>
-                </ol>
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comprehensive Protection Features</h2>
+                <p class="section-subtitle">Everything you need to participate safely in sweepstakes</p>
             </div>
-
-            <div class="section" id="acceptance">
-                <h2>1. Acceptance of Terms</h2>
-                <p>By downloading, installing, accessing, or using the SweepSafe mobile application ("App"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, do not use the App.</p>
-                <p>These Terms constitute a legally binding agreement between you ("User" or "you") and the developers of SweepSafe ("we," "us," or "our").</p>
-            </div>
-
-            <div class="section" id="description">
-                <h2>2. App Description and Purpose</h2>
-                <div class="highlight">
-                    <h3>🎯 Educational Purpose</h3>
-                    <p>SweepSafe is an educational application designed to help users learn about sweepstakes safety, identify potential scams, and understand best practices for safe participation in legitimate sweepstakes and contests.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">🔍</span>
+                    </div>
+                    <h3 class="feature-title">Scam Detection Tools</h3>
+                    <p class="feature-description">Learn to identify red flags and warning signs. Understand common scam tactics with real-world examples from our comprehensive database.</p>
                 </div>
-                
-                <h3>Key Features:</h3>
-                <ul>
-                    <li><strong>Educational Content:</strong> Safety guides, tips, and best practices</li>
-                    <li><strong>Scam Awareness:</strong> Information about common sweepstakes scams</li>
-                    <li><strong>Safety Tools:</strong> Resources to help evaluate sweepstakes legitimacy</li>
-                    <li><strong>News and Updates:</strong> Current information about sweepstakes safety</li>
-                </ul>
-            </div>
-
-            <div class="section" id="eligibility">
-                <h2>3. Eligibility and Age Requirements</h2>
-                <ul>
-                    <li><strong>Age Requirement:</strong> You must be at least 13 years old to use this App</li>
-                    <li><strong>Parental Supervision:</strong> Users under 18 should use the App under parental guidance</li>
-                    <li><strong>Legal Capacity:</strong> You must have the legal capacity to enter into this agreement</li>
-                    <li><strong>Jurisdiction:</strong> Use must comply with local laws and regulations</li>
-                </ul>
-            </div>
-
-            <div class="section" id="use">
-                <h2>4. Permitted Use and Restrictions</h2>
-                
-                <h3>✅ Permitted Uses:</h3>
-                <ul>
-                    <li>Use the App for educational purposes related to sweepstakes safety</li>
-                    <li>Access and read educational content and safety guides</li>
-                    <li>Use safety tools and resources for personal evaluation</li>
-                    <li>Share general safety tips from the App with others</li>
-                </ul>
-
-                <h3>❌ Prohibited Uses:</h3>
-                <ul>
-                    <li>Reverse engineer, decompile, or disassemble the App</li>
-                    <li>Use the App for any illegal or unauthorized purpose</li>
-                    <li>Attempt to gain unauthorized access to App systems</li>
-                    <li>Copy, modify, distribute, or create derivative works of the App</li>
-                    <li>Use the App to promote or facilitate scams or fraudulent activities</li>
-                    <li>Interfere with or disrupt the App's functionality</li>
-                    <li>Use automated systems or bots to access the App</li>
-                </ul>
-            </div>
-
-            <div class="section" id="content">
-                <h2>5. Content and Information</h2>
-                
-                <h3>Educational Content:</h3>
-                <ul>
-                    <li>All content is provided for educational and informational purposes only</li>
-                    <li>Content is based on publicly available information and best practices</li>
-                    <li>We strive for accuracy but make no guarantees about completeness</li>
-                    <li>Information may not be applicable in all jurisdictions</li>
-                </ul>
-
-                <h3>Third-Party Content:</h3>
-                <ul>
-                    <li>The App may include links to external websites and resources</li>
-                    <li>We are not responsible for third-party content or practices</li>
-                    <li>External links are provided for convenience only</li>
-                    <li>You access third-party content at your own risk</li>
-                </ul>
-
-                <h3>Intellectual Property:</h3>
-                <ul>
-                    <li>All App content, design, and functionality are our intellectual property</li>
-                    <li>Content is protected by copyright, trademark, and other laws</li>
-                    <li>You may not use our content for commercial purposes without permission</li>
-                </ul>
-            </div>
-
-            <div class="section" id="privacy">
-                <h2>6. Privacy and Data</h2>
-                <div class="highlight">
-                    <h3>🔒 Privacy-First Design</h3>
-                    <p>SweepSafe is designed with privacy at its core. All your data is stored locally on your device and is never transmitted to our servers. Please refer to our Privacy Policy for complete details about our data practices.</p>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">📖</span>
+                    </div>
+                    <h3 class="feature-title">Educational Content</h3>
+                    <p class="feature-description">Step-by-step safety guides for beginners and advanced tips for experienced enthusiasts. Stay updated with latest scam alerts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">🛡️</span>
+                    </div>
+                    <h3 class="feature-title">Safety Toolkit</h3>
+                    <p class="feature-description">Verification checklists, safety guidelines, and expert advice to help you participate in legitimate sweepstakes confidently.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">📊</span>
+                    </div>
+                    <h3 class="feature-title">Progress Tracking</h3>
+                    <p class="feature-description">Track your safety knowledge growth, complete interactive courses, and earn badges for learning milestones.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">🔒</span>
+                    </div>
+                    <h3 class="feature-title">Privacy-First Design</h3>
+                    <p class="feature-description">All data stored locally on your device. Complete privacy and anonymity with zero tracking or data collection.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <span class="feature-icon">🏆</span>
+                    </div>
+                    <h3 class="feature-title">Verified Sweepstakes</h3>
+                    <p class="feature-description">Access a curated list of legitimate sweepstakes opportunities, verified by our experts for your safety.</p>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="section" id="disclaimers">
-                <h2>7. Disclaimers and Limitations</h2>
-                
-                <div class="warning">
-                    <h3>⚠️ Important Disclaimers</h3>
-                    <p>SweepSafe is an educational tool only. We do not guarantee the legitimacy of any sweepstakes or contest, nor do we endorse any specific sweepstakes or promotional offers.</p>
+    <!-- Top Sweepstakes Section -->
+    <section class="toplist" id="toplist">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Legitimate Sweepstakes</h2>
+                <p class="section-subtitle">Verified opportunities from trusted sponsors</p>
+            </div>
+            <div class="toplist-grid" id="toplistGrid">
+                <!-- Jackpota -->
+                <div class="toplist-item">
+                    <img src="https://i.redd.it/g34b5pdvuh0f1.jpeg" alt="Jackpota" class="toplist-image" loading="lazy">
+                    <div class="toplist-content">
+                        <h3 class="toplist-title">Jackpota</h3>
+                        <p class="toplist-description">Launched in January 2024 by B2 Services OÜ, Jackpota quickly established itself as a leading sweepstakes casino in the US. The platform offers more than 700 games, including slots, table games, progressive jackpots...</p>
+                        <div class="toplist-meta">
+                            <span class="toplist-category">Slots</span>
+                            <span class="toplist-prize">57,500 GC + 27.5 Free SC for $9.99</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <span style="color: #B1ADAD; font-size: 0.8rem;">25 days left</span>
+                            <span style="color: #27ae60; font-size: 0.8rem; font-weight: 600;">✓ Verified</span>
+                        </div>
+                        <a href="https://www.jackpota.com/register" target="_blank" rel="noopener noreferrer" class="toplist-link">
+                            Enter Sweepstake
+                            <span style="font-size: 0.8rem;">→</span>
+                        </a>
+                    </div>
                 </div>
 
-                <h3>Educational Purpose Only:</h3>
-                <ul>
-                    <li>The App provides educational content about sweepstakes safety</li>
-                    <li>Information is not legal, financial, or professional advice</li>
-                    <li>Users should conduct their own research and due diligence</li>
-                    <li>We are not responsible for any sweepstakes participation decisions</li>
-                </ul>
+                <!-- Modo.us -->
+                <div class="toplist-item">
+                    <img src="https://cdn.prod.website-files.com/6781d5d09d98f31e1b75496d/6839cdcbbdaeb01715e7d786_b_s_big-winners-2025_1500x1000.jpg" alt="Modo.us" class="toplist-image" loading="lazy">
+                    <div class="toplist-content">
+                        <h3 class="toplist-title">Modo.us</h3>
+                        <p class="toplist-description">Modo.us Casino is a social casino launched in 2023 by ARB Gaming LLC and is available in 35 U.S. states. The platform stands out with its large library of more than 900 games from well-known software providers...</p>
+                        <div class="toplist-meta">
+                            <span class="toplist-category">Slots</span>
+                            <span class="toplist-prize">20,000 GC + 1 SC; multiple first purchase discounts</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <span style="color: #B1ADAD; font-size: 0.8rem;">Recently ended</span>
+                            <span style="color: #27ae60; font-size: 0.8rem; font-weight: 600;">✓ Verified</span>
+                        </div>
+                        <a href="https://modo.us/geoblock?source=waf" target="_blank" rel="noopener noreferrer" class="toplist-link">
+                            Enter Sweepstake
+                            <span style="font-size: 0.8rem;">→</span>
+                        </a>
+                    </div>
+                </div>
 
-                <h3>No Warranties:</h3>
-                <ul>
-                    <li>The App is provided "as is" without warranties of any kind</li>
-                    <li>We disclaim all warranties, express or implied</li>
-                    <li>We do not warrant that the App will be error-free or uninterrupted</li>
-                    <li>Accuracy and completeness of information are not guaranteed</li>
-                </ul>
+                <!-- Southern Living Ultimate Tailgate Experience -->
+                <div class="toplist-item">
+                    <img src="https://floridacitrussports.com/wp-content/uploads/2024/10/Ultimate-Tailgate2.jpg" alt="Southern Living Ultimate Tailgate Experience" class="toplist-image" loading="lazy">
+                    <div class="toplist-content">
+                        <h3 class="toplist-title">Southern Living Ultimate Tailgate Experience</h3>
+                        <p class="toplist-description">Win the ultimate tailgate experience worth $10,000! Includes premium game tickets, tailgate equipment, catering, and VIP parking for the season.</p>
+                        <div class="toplist-meta">
+                            <span class="toplist-category">Live Casino</span>
+                            <span class="toplist-prize">$10,000 Tailgate Experience</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <span style="color: #B1ADAD; font-size: 0.8rem;">Recently ended</span>
+                            <span style="color: #27ae60; font-size: 0.8rem; font-weight: 600;">✓ Verified</span>
+                        </div>
+                        <a href="https://www.southernliving.com/culture/sweepstakes" target="_blank" rel="noopener noreferrer" class="toplist-link">
+                            Enter Sweepstake
+                            <span style="font-size: 0.8rem;">→</span>
+                        </a>
+                    </div>
+                </div>
 
-                <h3>No Affiliation:</h3>
-                <ul>
-                    <li>SweepSafe is not affiliated with any sweepstakes sponsors or organizers</li>
-                    <li>We do not organize, sponsor, or endorse any sweepstakes</li>
-                    <li>References to sweepstakes are for educational purposes only</li>
-                </ul>
+                <!-- Men's Health Ultimate Fitness Transformation -->
+                <div class="toplist-item" style="display: none;" data-hidden="true">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/mens-health-fitness-hero-2023.jpg" alt="Men's Health Ultimate Fitness Transformation" class="toplist-image" loading="lazy">
+                    <div class="toplist-content">
+                        <h3 class="toplist-title">Men's Health Ultimate Fitness Transformation</h3>
+                        <p class="toplist-description">Win a complete fitness transformation worth $15,000! Personal training, gym membership, supplements, workout gear, and nutrition consultation.</p>
+                        <div class="toplist-meta">
+                            <span class="toplist-category">Other</span>
+                            <span class="toplist-prize">$15,000 Fitness Package</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <span style="color: #B1ADAD; font-size: 0.8rem;">Recently ended</span>
+                            <span style="color: #27ae60; font-size: 0.8rem; font-weight: 600;">✓ Verified</span>
+                        </div>
+                        <a href="https://www.menshealth.com/fitness/sweepstakes/" target="_blank" rel="noopener noreferrer" class="toplist-link">
+                            Enter Sweepstake
+                            <span style="font-size: 0.8rem;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Real Simple Life Made Easier Sweepstakes -->
+                <div class="toplist-item" style="display: none;" data-hidden="true">
+                    <img src="https://static.onecms.io/wp-content/uploads/sites/23/2023/life-easier-hero.jpg" alt="Real Simple Life Made Easier Sweepstakes" class="toplist-image" loading="lazy">
+                    <div class="toplist-content">
+                        <h3 class="toplist-title">Real Simple Life Made Easier Sweepstakes</h3>
+                        <p class="toplist-description">Win $15,000 worth of products to make your life easier! Home organization, cleaning supplies, tech gadgets, and time-saving appliances.</p>
+                        <div class="toplist-meta">
+                            <span class="toplist-category">Roulette</span>
+                            <span class="toplist-prize">$15,000 Life Improvement Package</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <span style="color: #B1ADAD; font-size: 0.8rem;">Recently ended</span>
+                            <span style="color: #27ae60; font-size: 0.8rem; font-weight: 600;">✓ Verified</span>
+                        </div>
+                        <a href="https://www.realsimple.com/work-life/life-strategies/sweepstakes" target="_blank" rel="noopener noreferrer" class="toplist-link">
+                            Enter Sweepstake
+                            <span style="font-size: 0.8rem;">→</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Wild World Casino -->
+                <div class="toplist-item" style="display: none;" data-hidden="true">
+                    <img src="https://stake54.com/api/upload/image/banner23940.png" alt="Wild World Casino" class="toplist-image" loading="lazy">
+                    <div class="toplist-content">
+                        <h3 class="toplist-title">Wild World Casino</h3>
+                        <p class="toplist-description">Wild World Social Casino, operated by IGW Wild World LLC, launched in 2023 with a library of over 700 slots and table games from providers like Evoplay, Habanero, Spadegaming...</p>
+                        <div class="toplist-meta">
+                            <span class="toplist-category">Slots</span>
+                            <span class="toplist-prize">Free 3 SC and 10,000 GC</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                            <span style="color: #B1ADAD; font-size: 0.8rem;">Recently ended</span>
+                            <span style="color: #27ae60; font-size: 0.8rem; font-weight: 600;">✓ Verified</span>
+                        </div>
+                        <a href="https://wildworldcasino.com/" target="_blank" rel="noopener noreferrer" class="toplist-link">
+                            Enter Sweepstake
+                            <span style="font-size: 0.8rem;">→</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-
-            <div class="section" id="liability">
-                <h2>8. Limitation of Liability</h2>
-                <p>To the maximum extent permitted by law:</p>
-                <ul>
-                    <li>We shall not be liable for any indirect, incidental, special, or consequential damages</li>
-                    <li>Our total liability shall not exceed the amount you paid for the App (if any)</li>
-                    <li>We are not responsible for any losses related to sweepstakes participation</li>
-                    <li>We are not liable for decisions made based on App content</li>
-                    <li>We are not responsible for third-party content or services</li>
-                </ul>
+            <div class="toplist-actions">
+                <button class="see-more-btn" id="seeMoreBtn">
+                    See More Sweepstakes (3 more)
+                </button>
             </div>
+        </div>
+    </section>
 
-            <div class="section" id="indemnification">
-                <h2>9. Indemnification</h2>
-                <p>You agree to indemnify, defend, and hold harmless SweepSafe and its developers from any claims, damages, losses, liabilities, and expenses (including reasonable attorney fees) arising from:</p>
-                <ul>
-                    <li>Your use of the App</li>
-                    <li>Your violation of these Terms</li>
-                    <li>Your participation in any sweepstakes or contests</li>
-                    <li>Any content you submit or share through the App</li>
-                    <li>Your violation of any third-party rights</li>
-                </ul>
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">See Sweepedia in Action</h2>
+                <p class="section-subtitle">Explore the app's intuitive interface and powerful features</p>
             </div>
-
-            <div class="section" id="updates">
-                <h2>10. App Updates and Changes</h2>
-                <h3>App Updates:</h3>
-                <ul>
-                    <li>We may release updates to improve functionality and security</li>
-                    <li>Updates may include new features or changes to existing ones</li>
-                    <li>Some updates may be required for continued use</li>
-                    <li>We are not obligated to provide updates indefinitely</li>
-                </ul>
-
-                <h3>Changes to Terms:</h3>
-                <ul>
-                    <li>We may modify these Terms at any time</li>
-                    <li>Changes will be posted in the App and on our website</li>
-                    <li>Continued use after changes constitutes acceptance</li>
-                    <li>Material changes will be communicated clearly</li>
-                </ul>
+            <div class="screenshots-grid">
+                <div class="screenshot-item" data-image="screenshots/iPhone/1.png">
+                    <img src="screenshots/iPhone/1.png" alt="Sweepedia Home Screen" loading="lazy">
+                    <div class="screenshot-overlay">
+                        <h4>Home Dashboard</h4>
+                        <p>Your personalized safety center</p>
+                    </div>
+                </div>
+                <div class="screenshot-item" data-image="screenshots/iPhone/2.png">
+                    <img src="screenshots/iPhone/2.png" alt="Sweepedia Features" loading="lazy">
+                    <div class="screenshot-overlay">
+                        <h4>Safety Features</h4>
+                        <p>Comprehensive protection tools</p>
+                    </div>
+                </div>
+                <div class="screenshot-item" data-image="screenshots/iPhone/3.png">
+                    <img src="screenshots/iPhone/3.png" alt="Sweepedia Education" loading="lazy">
+                    <div class="screenshot-overlay">
+                        <h4>Educational Content</h4>
+                        <p>Learn from experts</p>
+                    </div>
+                </div>
+                <div class="screenshot-item" data-image="screenshots/iPhone/5.png">
+                    <img src="screenshots/iPhone/5.png" alt="Sweepedia Profile" loading="lazy">
+                    <div class="screenshot-overlay">
+                        <h4>Progress Tracking</h4>
+                        <p>Monitor your learning journey</p>
+                    </div>
+                </div>
+                <div class="screenshot-item" data-image="screenshots/iPhone/tip.png">
+                    <img src="screenshots/iPhone/tip.png" alt="Sweepedia Guide" loading="lazy">
+                    <div class="screenshot-overlay">
+                        <h4>Expert Guides</h4>
+                        <p>Professional safety advice</p>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div class="section" id="termination">
-                <h2>11. Termination</h2>
-                <h3>Termination by You:</h3>
-                <ul>
-                    <li>You may stop using the App at any time</li>
-                    <li>Uninstalling the App terminates your use</li>
-                    <li>All locally stored data will be removed upon uninstallation</li>
-                </ul>
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2 class="download-title">Ready to Stay Safe?</h2>
+                    <p class="download-subtitle">Join thousands of protected users who enjoy sweepstakes safely with Sweepedia. Download now and never fall for a sweepstakes scam again!</p>
+                    <div class="download-features">
+                        <div class="download-feature">
+                            <span class="check-icon">✓</span>
+                            <span>Expert-developed content</span>
+                        </div>
+                        <div class="download-feature">
+                            <span class="check-icon">✓</span>
+                            <span>Regular safety updates</span>
+                        </div>
+                        <div class="download-feature">
+                            <span class="check-icon">✓</span>
+                            <span>Complete privacy protection</span>
+                        </div>
+                    </div>
+                    <a href="https://apps.apple.com/vn/app/sweepsafe-sweepstakes-deals/id6747408297" class="download-btn" target="_blank">
+                        Download
+                    </a>
+                </div>
+                <div class="download-image">
+                    <div class="phone-mockup-large">
+                        <img src="screenshots/iPhone/profie.png" alt="Sweepedia App" class="phone-screen-large">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <h3>Termination by Us:</h3>
-                <ul>
-                    <li>We may discontinue the App at any time</li>
-                    <li>We may terminate access for Terms violations</li>
-                    <li>Termination does not affect previously incurred obligations</li>
-                </ul>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.png" alt="Sweepedia Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">Sweepedia</span>
+                    </div>
+                    <p class="footer-description">Your trusted companion for safe sweepstakes participation.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#toplist">Top Sweepstakes</a></li>
+                        <li><a href="#screenshots">Screenshots</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="policy.html">Privacy Policy</a></li>
+                        <li><a href="term.html">Terms of Service</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p class="disclaimer">Apple Inc. is NOT a sponsor of any contests referenced in this app. Sweepedia is an educational app only. We are not affiliated with any sweepstakes sponsors.</p>
+                </div>
             </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Sweepedia. All rights reserved. Educational Tool | Privacy-Focused | Scam Protection</p>
+            </div>
+        </div>
+    </footer>
 
-            <div class="section" id="governing">
-                <h2>12. Governing Law and Dispute Resolution</h2>
-                <ul>
-                    <li>These Terms are governed by the laws of [Your Jurisdiction]</li>
-                    <li>Any disputes will be resolved in the courts of [Your Jurisdiction]</li>
-                    <li>If any provision is found invalid, the remainder shall remain in effect</li>
-                    <li>These Terms constitute the entire agreement between us</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>13. Additional Terms</h2>
-                
-                <h3>Apple App Store:</h3>
-                <p>If you downloaded the App from Apple's App Store, you acknowledge that:</p>
-                <ul>
-                    <li>These Terms are between you and us, not Apple</li>
-                    <li>Apple is not responsible for the App or its content</li>
-                    <li>Apple has no obligation to provide support for the App</li>
-                    <li>Apple is a third-party beneficiary of these Terms</li>
-                </ul>
-            </div>
-                </ul>
-            </div>
-
-            <div class="contact-info" id="contact">
-                <h3>📧 Contact Information</h3>
-                <p>If you have any questions about these Terms and Conditions, please contact us:</p>
-                <p><strong>Email:</strong> legal@sweepsafe.app</p>
-                <p><strong>Subject Line:</strong> Terms and Conditions Inquiry</p>
-                <p>We'll respond to your inquiry within 48 hours during business days.</p>
-            </div>
-
-            <div class="highlight">
-                <h3>📱 Thank You for Using SweepSafe</h3>
-                <p>By using SweepSafe, you're taking an important step toward safer sweepstakes participation. Our goal is to educate and empower users to make informed decisions about sweepstakes and contest participation while avoiding scams and fraudulent activities.</p>
-            </div>
-
-            <div class="last-updated">
-                <p><strong>Last Updated:</strong> August 3, 2025</p>
-                <p>Version 1.0</p>
-            </div>
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="close" id="closeLightbox">&times;</span>
+            <img src="" alt="Screenshot" id="lightboxImage">
         </div>
     </div>
+
+    <script src="script-fixed.js"></script>
 </body>
 </html>
